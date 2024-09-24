@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nombre": "Budin",
+        "precio": 3000,
+        "img": "https://dulcedai.vercel.app/img/budin.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Alfajor de maicena",
+        "precio": 500,
+        "img": "https://dulcedai.vercel.app/img/alfajor-de-maicena.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Torta",
+        "precio": 4000,
+        "img": "https://dulcedai.vercel.app/img/torta.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Cupcake",
+        "precio": 1000,
+        "img": "https://dulcedai.vercel.app/img/cupcake.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Chocotorta",
+        "precio": 2000,
+        "img": "https://dulcedai.vercel.app/img/chocotorta.jpg"
+    }
+]

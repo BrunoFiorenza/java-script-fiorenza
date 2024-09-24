@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.dark-mode {
+    background-color: rgb(22, 22, 22);
+}
+
+.light-mode {
+    background-color: rgb(233, 233, 233);
+}
+
+.light-mode header {
+    background: linear-gradient(#ff7099, rgb(233, 233, 233));
+}
+
+.dark-mode header {
+    background: linear-gradient(#ff7099, rgb(22, 22, 22));
+}
+
+.light-mode footer {
+    background: linear-gradient(rgb(233, 233, 233), #ff7099);
+}
+
+.dark-mode footer {
+    background: linear-gradient(rgb(22, 22, 22), #ff7099);
+}
+
+h1 {
+    color: #ff7099;
+    text-align: center;
+    padding: 25px;
+}
+
+.li-header {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.li-header ul a {
+    text-decoration: none;
+    color: #ff7099;
+    border: solid 3px #ff7099;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.li-header ul a:hover {
+    background-color: #ff7099;
+    color: white
+}
+
+.section-inicio {
+    padding: 20px;
+    margin: 10px;
+    border: solid 3px #ff7099;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-inicio p {
+    font-size: 20px;
+}
+
+.img-inicio {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.img-inicio img {
+    border: solid 3px #ff7099;
+    max-width: 600px;
+}
+
+.img-inicio img:hover {
+    scale: 1.02;
+    transition: 0.5s;
+}
+
+p {
+    color: #ff7099;
+}
+
+.p-main {
+    border-bottom: solid 4px #ff7099;
+    margin-bottom: 5px;
+}
+
+#listaProductos div {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    border: solid 4px #ff7099;
+}
+
+#listaProductos div:hover {
+    scale: 1.01;
+    transition: 0.5s;
+}
+
+#listaCarrito div {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    border: solid 4px #ff7099;
+}
+
+#listaCarrito div:hover {
+    scale: 1.01;
+    transition: 0.5s;
+}
+
+#listaCarrito {
+    margin-top: 50px;
+}
+
+#main-productos {
+    display: grid;
+    grid-template-columns: 46% 8% 46%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 4px #ff7099;
+}
+
+img {
+    width: 50%;
+    border-radius: 10px;
+    object-fit: cover;
+    border: solid 3px #ff7099;
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ig {
+    color: #ff7099;
+    text-align: center;
+    text-decoration: none;
+}
+
+.ig p {
+    font-size: x-large;
+}
+
+footer {
+    padding: 50px;
+}
+
+input {
+    height: 25px;
+    width: 50%;
+    border-radius: 5px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulcedai</title>
+    <link rel="shortcut icon" href="https://dulcedai.vercel.app/img/baker.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body class="light-mode">
+    <header>
+        <h1>Dulcedai</h1>
+        <li class="li-header">
+            <ul>
+                <a href="index.html">Inicio</a>
+            </ul>
+            <ul>
+                <a href="productos.html">Productos</a>
+            </ul>
+        </li>
+        <button id="cambio-modo">Modo oscuro/claro</button>
+    </header>
+    <main>
+        <section id="main-productos">
+            <div class="main-lista">
+                <p class="p-main">Lista de productos</p>
+                <input type="text" id="inputBusqueda" placeholder="Buscar producto">
+                <button id="buscarProducto">Buscar</button>
+                <div id="listaProductos"></div>
+            </div>
+            <div>
+            </div>
+            <div class="main-lista">
+                <p class="p-main">Carrito</p>
+                <div id="listaCarrito"></div>
+                <p>Total: $<span id="totalCarrito">0</span></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="https://www.instagram.com/dulceedai/" target="_blank" class="ig">
+            <p>@Dulcedai</p>
+        </a>
+    </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="js/changemode.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
